@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Modern tsconfig for Discordx, the typescript framework for building discord bots",
+  "extends": "./node.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "moduleResolution": "nodenext"
+  },
+  "exclude": ["node_modules", "**/__tests__/*", "build"],
+  "include": ["src/**/*"]
+}
