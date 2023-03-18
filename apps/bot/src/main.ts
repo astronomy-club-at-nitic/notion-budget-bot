@@ -2,7 +2,13 @@ import { dirname, importx } from '@discordx/importer';
 import type { Interaction, Message } from 'discord.js';
 import { IntentsBitField } from 'discord.js';
 import { Client } from 'discordx';
-import { DISCORD_BOT_TOKEN } from './env.js';
+import { NODE_ENV, DISCORD_BOT_TOKEN, DISCORD_GUILD_ID } from './env.js';
+
+// eslint-disable-next-line no-console
+console.info('この環境変数でボットを実行します: ', {
+  NODE_ENV,
+  DISCORD_GUILD_ID,
+});
 
 export const bot = new Client({
   // To use only guild command
@@ -25,6 +31,10 @@ export const bot = new Client({
   simpleCommand: {
     prefix: '!',
   },
+
+  // 通常のグローバルコマンドは、変更が伝播されるまでに時間がかかる
+  // そのため、開発中は、botGuildsを指定して、そのギルドに対してのみ変更が即座に反映されるように開発中のみ有効にする
+  botGuilds: NODE_ENV === 'development' ? (DISCORD_GUILD_ID as string[]) : undefined,
 });
 
 bot.once('ready', async () => {
