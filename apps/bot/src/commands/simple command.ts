@@ -6,7 +6,7 @@ import { Discord, SimpleCommand, SimpleCommandOption, SimpleCommandOptionType, S
 export class Example {
   @SimpleCommand({ aliases: ['hi'] })
   hello(command: SimpleCommandMessage): void {
-    command.message.reply(`👋 ${command.message.member}`);
+    command.message.reply(`👋 ${command.message.member} こんにちは予算botです`);
   }
 
   @SimpleCommand({ argSplitter: '+' })
