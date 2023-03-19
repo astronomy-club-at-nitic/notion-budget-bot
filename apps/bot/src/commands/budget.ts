@@ -1,12 +1,13 @@
 import type { CommandInteraction } from 'discord.js';
 import { ApplicationCommandOptionType } from 'discord.js';
-import { Discord, Slash, SlashGroup, SlashOption } from 'discordx';
+import { Discord, Guild, Slash, SlashGroup, SlashOption } from 'discordx';
 import { NODE_ENV, DISCORD_GUILD_ID, NOTION_DATABASE_ID, DISCORD_BOT_TOKEN, NOTION_SECRET } from '../env.js';
 import { coverSecretString } from '../utils/coverSecretString.js';
 
 @Discord()
 @SlashGroup({ description: 'Notionで管理されている予算を確認しましょう！', name: 'budget' })
-export class GroupExample {
+@Guild(DISCORD_GUILD_ID as string[])
+export class BudgetCommandGroup {
   @Slash({ description: '現在のボットの情報を表示します。' })
   @SlashGroup('budget')
   status(interaction: CommandInteraction): void {
