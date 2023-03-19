@@ -31,7 +31,7 @@ importers:
       '@vitest/coverage-c8': 0.29.3
       '@vitest/ui': 0.29.3
       discord.js: 14.8.0
-      discordx: 11.7.1
+      discordx: 11.7.2
       dotenv: 16.0.3
       eslint-config-custom: workspace:*
       nodemon: 2.0.21
@@ -47,7 +47,7 @@ importers:
       '@discordx/pagination': 3.4.1_discord.js@14.8.0
       '@notionhq/client': 2.2.3
       discord.js: 14.8.0
-      discordx: 11.7.1_discord.js@14.8.0
+      discordx: 11.7.2_discord.js@14.8.0
       dotenv: 16.0.3
       znv: 0.3.2_zod@3.21.4
       zod: 3.21.4
@@ -1485,8 +1485,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /discordx/11.7.1_discord.js@14.8.0:
-    resolution: {integrity: sha512-hFjKz5D4e87c4Hojs9wvAc3KgbC/j2QC/SF3YXAJDqzLVwjWkWJnJAutNJjmUTHjY/lJKsFlUd5Gu6NjXlUsPw==}
+  /discordx/11.7.2_discord.js@14.8.0:
+    resolution: {integrity: sha512-4AOjLjv0rgsK6fBKEfksoS0L0UjYxKr2Vx2C+qDtWiQECCg7pQ9BxoQvZu9gsEBoXdWdzTqW5ndiGBnNn8HT3Q==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
     peerDependencies:
       discord.js: '>=14 || ^14.0.0-dev'
