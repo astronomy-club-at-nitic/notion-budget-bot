@@ -14,11 +14,13 @@
     "format:check": "prettier --check .",
     "format:fix": "prettier --write .",
     "test": "pnpm vitest",
-    "test:coverage": "pnpm vitest run --coverage"
+    "test:coverage": "pnpm vitest run --coverage",
+    "snapshot-notion-db-metadata": "ts-node-esm -r tsconfig-paths/register ./src/infra/scripts/snapshotNotionDatabaseMetadata.ts"
   },
   "dependencies": {
     "@discordx/importer": "1.2.1",
     "@discordx/pagination": "3.4.1",
+    "@notionhq/client": "2.2.3",
     "discord.js": "14.8.0",
     "discordx": "11.7.1",
     "dotenv": "16.0.3",
@@ -26,9 +28,9 @@
     "zod": "3.21.4"
   },
   "devDependencies": {
+    "@types/node": "18.15.3",
     "@vitest/coverage-c8": "0.29.3",
     "@vitest/ui": "0.29.3",
-    "@types/node": "18.15.3",
     "eslint-config-custom": "workspace:*",
     "nodemon": "2.0.21",
     "ts-node": "10.9.1",
