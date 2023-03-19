@@ -1,0 +1,275 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`retriveDatabase > データベースの持つプロパティーが変化していない 1`] = `
+{
+  "収支 (日本円)": {
+    "id": "sA%5Do",
+    "name": "収支 (日本円)",
+    "number": {
+      "format": "number",
+    },
+    "type": "number",
+  },
+  "学生課への申告状態": {
+    "id": "Gcks",
+    "name": "学生課への申告状態",
+    "status": {
+      "groups": [
+        {
+          "color": "gray",
+          "id": "a4a0a58c-0f58-4927-9e6b-f713be775228",
+          "name": "To-do",
+          "option_ids": [
+            "7ec31f4b-1331-4f60-928d-318acef05e44",
+          ],
+        },
+        {
+          "color": "blue",
+          "id": "fb101a06-7639-4d15-8316-941896d574ee",
+          "name": "In progress",
+          "option_ids": [
+            "jg]Z",
+          ],
+        },
+        {
+          "color": "green",
+          "id": "208e4139-5d9d-4e98-89c5-d3d71c065f7e",
+          "name": "Complete",
+          "option_ids": [
+            "fe22089c-1fce-41ed-9ba6-377339b600f5",
+          ],
+        },
+      ],
+      "options": [
+        {
+          "color": "yellow",
+          "id": "jg]Z",
+          "name": "申告作業中",
+        },
+        {
+          "color": "red",
+          "id": "7ec31f4b-1331-4f60-928d-318acef05e44",
+          "name": "未申告",
+        },
+        {
+          "color": "green",
+          "id": "fe22089c-1fce-41ed-9ba6-377339b600f5",
+          "name": "申告済み",
+        },
+      ],
+    },
+    "type": "status",
+  },
+  "支払いの名目": {
+    "id": "title",
+    "name": "支払いの名目",
+    "title": {},
+    "type": "title",
+  },
+  "支払い日": {
+    "date": {},
+    "id": "tfz~",
+    "name": "支払い日",
+    "type": "date",
+  },
+  "支払い明細書": {
+    "files": {},
+    "id": "dVUR",
+    "name": "支払い明細書",
+    "type": "files",
+  },
+  "支払い状態": {
+    "id": "%3BXO%7B",
+    "name": "支払い状態",
+    "status": {
+      "groups": [
+        {
+          "color": "gray",
+          "id": "a538a2b6-430f-401b-a567-02e9c0cfca87",
+          "name": "To-do",
+          "option_ids": [
+            "PJ|v",
+          ],
+        },
+        {
+          "color": "blue",
+          "id": "b247be6b-95d4-43b8-ab29-8a7de0fb9783",
+          "name": "In progress",
+          "option_ids": [
+            "OXij",
+          ],
+        },
+        {
+          "color": "green",
+          "id": "27364621-85a4-4361-9cb0-a201f60a77f4",
+          "name": "Complete",
+          "option_ids": [
+            "oNRf",
+          ],
+        },
+      ],
+      "options": [
+        {
+          "color": "blue",
+          "id": "PJ|v",
+          "name": "予算の草案",
+        },
+        {
+          "color": "yellow",
+          "id": "OXij",
+          "name": "支払い予定",
+        },
+        {
+          "color": "green",
+          "id": "oNRf",
+          "name": "支払い済み",
+        },
+      ],
+    },
+    "type": "status",
+  },
+  "領収書": {
+    "files": {},
+    "id": "hd~D",
+    "name": "領収書",
+    "type": "files",
+  },
+}
+`;
+
+exports[`retriveDatabaseMetadata > データベースの持つプロパティーが変化していない 1`] = `
+{
+  "収支 (日本円)": {
+    "id": "sA%5Do",
+    "name": "収支 (日本円)",
+    "number": {
+      "format": "number",
+    },
+    "type": "number",
+  },
+  "学生課への申告状態": {
+    "id": "Gcks",
+    "name": "学生課への申告状態",
+    "status": {
+      "groups": [
+        {
+          "color": "gray",
+          "id": "a4a0a58c-0f58-4927-9e6b-f713be775228",
+          "name": "To-do",
+          "option_ids": [
+            "7ec31f4b-1331-4f60-928d-318acef05e44",
+          ],
+        },
+        {
+          "color": "blue",
+          "id": "fb101a06-7639-4d15-8316-941896d574ee",
+          "name": "In progress",
+          "option_ids": [
+            "jg]Z",
+          ],
+        },
+        {
+          "color": "green",
+          "id": "208e4139-5d9d-4e98-89c5-d3d71c065f7e",
+          "name": "Complete",
+          "option_ids": [
+            "fe22089c-1fce-41ed-9ba6-377339b600f5",
+          ],
+        },
+      ],
+      "options": [
+        {
+          "color": "yellow",
+          "id": "jg]Z",
+          "name": "申告作業中",
+        },
+        {
+          "color": "red",
+          "id": "7ec31f4b-1331-4f60-928d-318acef05e44",
+          "name": "未申告",
+        },
+        {
+          "color": "green",
+          "id": "fe22089c-1fce-41ed-9ba6-377339b600f5",
+          "name": "申告済み",
+        },
+      ],
+    },
+    "type": "status",
+  },
+  "支払いの名目": {
+    "id": "title",
+    "name": "支払いの名目",
+    "title": {},
+    "type": "title",
+  },
+  "支払い日": {
+    "date": {},
+    "id": "tfz~",
+    "name": "支払い日",
+    "type": "date",
+  },
+  "支払い明細書": {
+    "files": {},
+    "id": "dVUR",
+    "name": "支払い明細書",
+    "type": "files",
+  },
+  "支払い状態": {
+    "id": "%3BXO%7B",
+    "name": "支払い状態",
+    "status": {
+      "groups": [
+        {
+          "color": "gray",
+          "id": "a538a2b6-430f-401b-a567-02e9c0cfca87",
+          "name": "To-do",
+          "option_ids": [
+            "PJ|v",
+          ],
+        },
+        {
+          "color": "blue",
+          "id": "b247be6b-95d4-43b8-ab29-8a7de0fb9783",
+          "name": "In progress",
+          "option_ids": [
+            "OXij",
+          ],
+        },
+        {
+          "color": "green",
+          "id": "27364621-85a4-4361-9cb0-a201f60a77f4",
+          "name": "Complete",
+          "option_ids": [
+            "oNRf",
+          ],
+        },
+      ],
+      "options": [
+        {
+          "color": "blue",
+          "id": "PJ|v",
+          "name": "予算の草案",
+        },
+        {
+          "color": "yellow",
+          "id": "OXij",
+          "name": "支払い予定",
+        },
+        {
+          "color": "green",
+          "id": "oNRf",
+          "name": "支払い済み",
+        },
+      ],
+    },
+    "type": "status",
+  },
+  "領収書": {
+    "files": {},
+    "id": "hd~D",
+    "name": "領収書",
+    "type": "files",
+  },
+}
+`;
