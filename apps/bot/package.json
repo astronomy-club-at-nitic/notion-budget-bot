@@ -28,15 +28,15 @@
     "zod": "3.21.4"
   },
   "devDependencies": {
-    "@types/node": "18.15.9",
-    "@vitest/coverage-c8": "0.29.7",
-    "@vitest/ui": "0.29.7",
+    "@types/node": "18.15.11",
+    "@vitest/coverage-c8": "0.29.8",
+    "@vitest/ui": "0.29.8",
     "eslint-config-custom": "workspace:*",
     "nodemon": "2.0.22",
     "ts-node": "10.9.1",
     "tsconfig": "workspace:*",
     "tslib": "2.5.0",
-    "typescript": "5.0.2",
-    "vitest": "0.29.7"
+    "typescript": "5.0.3",
+    "vitest": "0.29.8"
   }
 }
