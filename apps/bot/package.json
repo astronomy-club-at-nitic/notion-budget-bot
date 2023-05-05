@@ -20,8 +20,8 @@
   "dependencies": {
     "@discordx/importer": "1.2.2",
     "@discordx/pagination": "3.4.1",
-    "@notionhq/client": "2.2.4",
-    "discord.js": "14.9.0",
+    "@notionhq/client": "2.2.5",
+    "discord.js": "14.10.2",
     "discordx": "11.7.6",
     "dotenv": "16.0.3",
     "znv": "0.3.2",
