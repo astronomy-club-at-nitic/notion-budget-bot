@@ -28,7 +28,7 @@
     "zod": "3.21.4"
   },
   "devDependencies": {
-    "@types/node": "18.16.13",
+    "@types/node": "18.16.16",
     "@vitest/coverage-c8": "0.31.1",
     "@vitest/ui": "0.31.1",
     "eslint-config-custom": "workspace:*",
