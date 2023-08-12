@@ -18,7 +18,7 @@
     "snapshot-notion-db-metadata": "ts-node-esm -r tsconfig-paths/register ./src/infra/scripts/snapshotNotionDatabaseMetadata.ts"
   },
   "dependencies": {
-    "@discordx/importer": "1.2.2",
+    "@discordx/importer": "1.2.3",
     "@discordx/pagination": "3.4.1",
     "@notionhq/client": "2.2.10",
     "discord.js": "14.12.1",
