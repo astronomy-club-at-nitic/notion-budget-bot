@@ -16,8 +16,8 @@
     "eslint-config-custom": "workspace:*",
     "eslint-config-prettier": "9.0.0",
     "husky": "8.0.3",
-    "lint-staged": "13.2.3",
-    "prettier": "3.0.1",
+    "lint-staged": "13.3.0",
+    "prettier": "3.0.2",
     "scaffdog": "3.0.0",
     "turbo": "1.10.12"
   },
