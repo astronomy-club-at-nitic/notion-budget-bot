@@ -8,15 +8,15 @@
     "format:fix": "prettier --write ."
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "7.0.1",
-    "@typescript-eslint/parser": "7.0.1",
-    "eslint": "9.0.0",
+    "@typescript-eslint/eslint-plugin": "7.18.0",
+    "@typescript-eslint/parser": "7.18.0",
+    "eslint": "9.24.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-airbnb-typescript": "18.0.0",
-    "eslint-config-prettier": "10.0.1",
+    "eslint-config-prettier": "10.1.1",
     "eslint-config-turbo": "latest",
-    "eslint-plugin-import": "2.28.1",
-    "typescript": "5.2.2"
+    "eslint-plugin-import": "2.31.0",
+    "typescript": "5.8.3"
   },
   "devDependencies": {
     "prettier": "3.0.2"
