@@ -51,8 +51,8 @@ importers:
         specifier: 11.12.2
         version: 11.12.2(discord.js@14.18.0)
       dotenv:
-        specifier: 16.4.7
-        version: 16.4.7
+        specifier: 16.5.0
+        version: 16.5.0
       znv:
         specifier: 0.5.0
         version: 0.5.0(zod@3.24.2)
@@ -109,8 +109,8 @@ importers:
         specifier: 18.0.0
         version: 18.0.0(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@9.24.0(jiti@1.17.1))(typescript@5.8.3))(eslint@9.24.0(jiti@1.17.1))(typescript@5.8.3))(@typescript-eslint/parser@7.18.0(eslint@9.24.0(jiti@1.17.1))(typescript@5.8.3))(eslint-plugin-import@2.31.0(@typescript-eslint/parser@7.18.0(eslint@9.24.0(jiti@1.17.1))(typescript@5.8.3))(eslint@9.24.0(jiti@1.17.1)))(eslint@9.24.0(jiti@1.17.1))
       eslint-config-prettier:
-        specifier: 10.1.1
-        version: 10.1.1(eslint@9.24.0(jiti@1.17.1))
+        specifier: 10.1.2
+        version: 10.1.2(eslint@9.24.0(jiti@1.17.1))
       eslint-config-turbo:
         specifier: latest
         version: 2.5.0(eslint@9.24.0(jiti@1.17.1))(turbo@1.10.12)
@@ -1202,8 +1202,8 @@ packages:
     resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
     engines: {node: '>=12'}
 
-  dotenv@16.4.7:
-    resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
+  dotenv@16.5.0:
+    resolution: {integrity: sha512-m/C+AwOAr9/W1UOIZUo232ejMNnJAJtYQjUbHoNTBNTJSvqzzDh7vnrei3o3r3m9blf6ZoDkvcw0VmozNRFJxg==}
     engines: {node: '>=12'}
 
   dunder-proto@1.0.1:
@@ -1298,8 +1298,8 @@ packages:
       '@typescript-eslint/parser': ^7.0.0
       eslint: ^8.56.0
 
-  eslint-config-prettier@10.1.1:
-    resolution: {integrity: sha512-4EQQr6wXwS+ZJSzaR5ZCrYgLxqvUjdXctaEtBqHcbkW944B1NQyO4qpdHQbXBONfwxXdkAY81HH4+LUfrg+zPw==}
+  eslint-config-prettier@10.1.2:
+    resolution: {integrity: sha512-Epgp/EofAUeEpIdZkW60MHKvPyru1ruQJxPL+WIycnaPApuseK0Zpkrh/FwL9oIpQvIhJwV7ptOy0DWUjTlCiA==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -4414,7 +4414,7 @@ snapshots:
 
   dotenv@16.0.3: {}
 
-  dotenv@16.4.7: {}
+  dotenv@16.5.0: {}
 
   dunder-proto@1.0.1:
     dependencies:
@@ -4648,7 +4648,7 @@ snapshots:
     transitivePeerDependencies:
       - eslint-plugin-import
 
-  eslint-config-prettier@10.1.1(eslint@9.24.0(jiti@1.17.1)):
+  eslint-config-prettier@10.1.2(eslint@9.24.0(jiti@1.17.1)):
     dependencies:
       eslint: 9.24.0(jiti@1.17.1)
 
