@@ -42,8 +42,8 @@ importers:
         specifier: 4.0.1
         version: 4.0.1(discord.js@14.19.3)
       '@notionhq/client':
-        specifier: 3.0.1
-        version: 3.0.1
+        specifier: 4.0.0
+        version: 4.0.0
       discord.js:
         specifier: 14.19.3
         version: 14.19.3
@@ -460,8 +460,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@notionhq/client@3.0.1':
-    resolution: {integrity: sha512-vHtFKrRKQg2PZSky1A9fTe+L9/WxNYRJWHmD6ZiBNgeN5jnFmv27ootRl9ROzEm/N+mOxfTo37EnuCHsaPgETg==}
+  '@notionhq/client@4.0.0':
+    resolution: {integrity: sha512-repLjfvmiwZ/oKAULpudXZ67VnXaGpr+AbzRXOntO89v8kslVlUfZX/VLgKRzQ0gRWGBabtFp+5YoTRuhQp6jA==}
     engines: {node: '>=18'}
 
   '@pkgjs/parseargs@0.11.0':
@@ -3751,7 +3751,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
 
-  '@notionhq/client@3.0.1': {}
+  '@notionhq/client@4.0.0': {}
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
