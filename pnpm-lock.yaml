@@ -55,10 +55,10 @@ importers:
         version: 17.0.0
       znv:
         specifier: 0.5.0
-        version: 0.5.0(zod@3.24.3)
+        version: 0.5.0(zod@4.0.5)
       zod:
-        specifier: 3.24.3
-        version: 3.24.3
+        specifier: 4.0.5
+        version: 4.0.5
     devDependencies:
       '@types/node':
         specifier: 20.8.9
@@ -3443,11 +3443,11 @@ packages:
     peerDependencies:
       zod: ^3.24.1
 
-  zod@3.21.4:
-    resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
-
   zod@3.24.3:
     resolution: {integrity: sha512-HhY1oqzWCQWuUqvBFnsyrtZRhyPeR7SUGv+C4+MsisMuVfSPx8HpwWqH8tRahSlt6M3PiFAcoeFhZAqIXTxoSg==}
+
+  zod@4.0.5:
+    resolution: {integrity: sha512-/5UuuRPStvHXu7RS+gmvRf4NXrNxpSllGwDnCBcJZtQsKrviYXm54yDGV2KYNLT5kq0lHGcl7lqWJLgSaG+tgA==}
 
 snapshots:
 
@@ -6563,7 +6563,7 @@ snapshots:
       valid-filename: 4.0.0
       wrap-ansi: 8.1.0
       yargs: 17.7.2
-      zod: 3.21.4
+      zod: 3.24.3
     transitivePeerDependencies:
       - supports-color
 
@@ -7322,14 +7322,14 @@ snapshots:
 
   yocto-queue@1.0.0: {}
 
-  znv@0.5.0(zod@3.24.3):
+  znv@0.5.0(zod@4.0.5):
     dependencies:
-      zod: 3.24.3
+      zod: 4.0.5
 
   zod-to-json-schema@3.24.5(zod@3.24.3):
     dependencies:
       zod: 3.24.3
 
-  zod@3.21.4: {}
-
   zod@3.24.3: {}
+
+  zod@4.0.5: {}
