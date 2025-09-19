@@ -42,8 +42,8 @@ importers:
         specifier: 4.0.1
         version: 4.0.1(discord.js@14.19.3)
       '@notionhq/client':
-        specifier: 4.0.0
-        version: 4.0.0
+        specifier: 5.1.0
+        version: 5.1.0
       discord.js:
         specifier: 14.19.3
         version: 14.19.3
@@ -113,7 +113,7 @@ importers:
         version: 10.1.2(eslint@9.26.0(jiti@1.17.1))
       eslint-config-turbo:
         specifier: latest
-        version: 2.5.4(eslint@9.26.0(jiti@1.17.1))(turbo@1.10.12)
+        version: 2.5.6(eslint@9.26.0(jiti@1.17.1))(turbo@1.10.12)
       eslint-plugin-import:
         specifier: 2.31.0
         version: 2.31.0(@typescript-eslint/parser@7.18.0(eslint@9.26.0(jiti@1.17.1))(typescript@5.8.3))(eslint@9.26.0(jiti@1.17.1))
@@ -460,8 +460,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@notionhq/client@4.0.0':
-    resolution: {integrity: sha512-repLjfvmiwZ/oKAULpudXZ67VnXaGpr+AbzRXOntO89v8kslVlUfZX/VLgKRzQ0gRWGBabtFp+5YoTRuhQp6jA==}
+  '@notionhq/client@5.1.0':
+    resolution: {integrity: sha512-YYVjXYk1XwKQ4XIh+iGjaaXOGHxaDgB3UaGnDMyrZ3X9UiYQsZpzPIvTuhvp97os8a5W5kTQFsyq77+I+COOVQ==}
     engines: {node: '>=18'}
 
   '@pkgjs/parseargs@0.11.0':
@@ -1351,8 +1351,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-config-turbo@2.5.4:
-    resolution: {integrity: sha512-OpjpDLXIaus0N/Y+pMj17K430xjpd6WTo0xPUESqYZ9BkMngv2n0ZdjktgJTbJVnDmK7gHrXgJAljtdIMcYBIg==}
+  eslint-config-turbo@2.5.6:
+    resolution: {integrity: sha512-1EV/UqdKE75st9q6y0MCxz7qp2v7RyGvbQsMLSuCz+VH8ScnSfmhd8FcAbqx3BshCy5IluujzMB6T5iCgL3/sA==}
     peerDependencies:
       eslint: '>6.6.0'
       turbo: '>2.0.0'
@@ -1391,8 +1391,8 @@ packages:
       '@typescript-eslint/parser':
         optional: true
 
-  eslint-plugin-turbo@2.5.4:
-    resolution: {integrity: sha512-IZsW61DFj5mLMMaCJxhh1VE4HvNhfdnHnAaXajgne+LUzdyHk2NvYT0ECSa/1SssArcqgTvV74MrLL68hWLLFw==}
+  eslint-plugin-turbo@2.5.6:
+    resolution: {integrity: sha512-KUDE23aP2JV8zbfZ4TeM1HpAXzMM/AYG/bJam7P4AalUxas8Pd/lS/6R3p4uX91qJcH1LwL4h0ED48nDe8KorQ==}
     peerDependencies:
       eslint: '>6.6.0'
       turbo: '>2.0.0'
@@ -3751,7 +3751,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
 
-  '@notionhq/client@4.0.0': {}
+  '@notionhq/client@5.1.0': {}
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
@@ -4854,10 +4854,10 @@ snapshots:
     dependencies:
       eslint: 8.47.0
 
-  eslint-config-turbo@2.5.4(eslint@9.26.0(jiti@1.17.1))(turbo@1.10.12):
+  eslint-config-turbo@2.5.6(eslint@9.26.0(jiti@1.17.1))(turbo@1.10.12):
     dependencies:
       eslint: 9.26.0(jiti@1.17.1)
-      eslint-plugin-turbo: 2.5.4(eslint@9.26.0(jiti@1.17.1))(turbo@1.10.12)
+      eslint-plugin-turbo: 2.5.6(eslint@9.26.0(jiti@1.17.1))(turbo@1.10.12)
       turbo: 1.10.12
 
   eslint-import-resolver-node@0.3.9:
@@ -4907,7 +4907,7 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-turbo@2.5.4(eslint@9.26.0(jiti@1.17.1))(turbo@1.10.12):
+  eslint-plugin-turbo@2.5.6(eslint@9.26.0(jiti@1.17.1))(turbo@1.10.12):
     dependencies:
       dotenv: 16.0.3
       eslint: 9.26.0(jiti@1.17.1)
