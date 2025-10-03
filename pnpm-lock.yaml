@@ -55,10 +55,10 @@ importers:
         version: 17.0.0
       znv:
         specifier: 0.5.0
-        version: 0.5.0(zod@3.24.3)
+        version: 0.5.0(zod@4.1.11)
       zod:
-        specifier: 3.24.3
-        version: 3.24.3
+        specifier: 4.1.11
+        version: 4.1.11
     devDependencies:
       '@types/node':
         specifier: 20.8.9
@@ -113,7 +113,7 @@ importers:
         version: 10.1.2(eslint@9.26.0(jiti@1.17.1))
       eslint-config-turbo:
         specifier: latest
-        version: 2.5.4(eslint@9.26.0(jiti@1.17.1))(turbo@1.10.12)
+        version: 2.5.8(eslint@9.26.0(jiti@1.17.1))(turbo@1.10.12)
       eslint-plugin-import:
         specifier: 2.31.0
         version: 2.31.0(@typescript-eslint/parser@7.18.0(eslint@9.26.0(jiti@1.17.1))(typescript@5.8.3))(eslint@9.26.0(jiti@1.17.1))
@@ -1351,8 +1351,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-config-turbo@2.5.4:
-    resolution: {integrity: sha512-OpjpDLXIaus0N/Y+pMj17K430xjpd6WTo0xPUESqYZ9BkMngv2n0ZdjktgJTbJVnDmK7gHrXgJAljtdIMcYBIg==}
+  eslint-config-turbo@2.5.8:
+    resolution: {integrity: sha512-wzxmN7dJNFGDwOvR/4j8U2iaIH/ruYez8qg/sCKrezJ3+ljbFMvJLmgKKt/1mDuyU9wj5aZqO6VijP3QH169FA==}
     peerDependencies:
       eslint: '>6.6.0'
       turbo: '>2.0.0'
@@ -1391,8 +1391,8 @@ packages:
       '@typescript-eslint/parser':
         optional: true
 
-  eslint-plugin-turbo@2.5.4:
-    resolution: {integrity: sha512-IZsW61DFj5mLMMaCJxhh1VE4HvNhfdnHnAaXajgne+LUzdyHk2NvYT0ECSa/1SssArcqgTvV74MrLL68hWLLFw==}
+  eslint-plugin-turbo@2.5.8:
+    resolution: {integrity: sha512-bVjx4vTH0oTKIyQ7EGFAXnuhZMrKIfu17qlex/dps7eScPnGQLJ3r1/nFq80l8xA+8oYjsSirSQ2tXOKbz3kEw==}
     peerDependencies:
       eslint: '>6.6.0'
       turbo: '>2.0.0'
@@ -3443,11 +3443,11 @@ packages:
     peerDependencies:
       zod: ^3.24.1
 
-  zod@3.21.4:
-    resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
-
   zod@3.24.3:
     resolution: {integrity: sha512-HhY1oqzWCQWuUqvBFnsyrtZRhyPeR7SUGv+C4+MsisMuVfSPx8HpwWqH8tRahSlt6M3PiFAcoeFhZAqIXTxoSg==}
+
+  zod@4.1.11:
+    resolution: {integrity: sha512-WPsqwxITS2tzx1bzhIKsEs19ABD5vmCVa4xBo2tq/SrV4RNZtfws1EnCWQXM6yh8bD08a1idvkB5MZSBiZsjwg==}
 
 snapshots:
 
@@ -4854,10 +4854,10 @@ snapshots:
     dependencies:
       eslint: 8.47.0
 
-  eslint-config-turbo@2.5.4(eslint@9.26.0(jiti@1.17.1))(turbo@1.10.12):
+  eslint-config-turbo@2.5.8(eslint@9.26.0(jiti@1.17.1))(turbo@1.10.12):
     dependencies:
       eslint: 9.26.0(jiti@1.17.1)
-      eslint-plugin-turbo: 2.5.4(eslint@9.26.0(jiti@1.17.1))(turbo@1.10.12)
+      eslint-plugin-turbo: 2.5.8(eslint@9.26.0(jiti@1.17.1))(turbo@1.10.12)
       turbo: 1.10.12
 
   eslint-import-resolver-node@0.3.9:
@@ -4907,7 +4907,7 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-turbo@2.5.4(eslint@9.26.0(jiti@1.17.1))(turbo@1.10.12):
+  eslint-plugin-turbo@2.5.8(eslint@9.26.0(jiti@1.17.1))(turbo@1.10.12):
     dependencies:
       dotenv: 16.0.3
       eslint: 9.26.0(jiti@1.17.1)
@@ -6563,7 +6563,7 @@ snapshots:
       valid-filename: 4.0.0
       wrap-ansi: 8.1.0
       yargs: 17.7.2
-      zod: 3.21.4
+      zod: 3.24.3
     transitivePeerDependencies:
       - supports-color
 
@@ -7322,14 +7322,14 @@ snapshots:
 
   yocto-queue@1.0.0: {}
 
-  znv@0.5.0(zod@3.24.3):
+  znv@0.5.0(zod@4.1.11):
     dependencies:
-      zod: 3.24.3
+      zod: 4.1.11
 
   zod-to-json-schema@3.24.5(zod@3.24.3):
     dependencies:
       zod: 3.24.3
 
-  zod@3.21.4: {}
-
   zod@3.24.3: {}
+
+  zod@4.1.11: {}
