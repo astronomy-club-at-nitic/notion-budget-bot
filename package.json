@@ -12,14 +12,14 @@
     "format:fix": "prettier --write ."
   },
   "devDependencies": {
-    "eslint": "8.47.0",
+    "eslint": "10.0.2",
     "eslint-config-custom": "workspace:*",
-    "eslint-config-prettier": "9.0.0",
+    "eslint-config-prettier": "10.1.8",
     "husky": "9.0.6",
-    "lint-staged": "15.0.0",
+    "lint-staged": "16.3.0",
     "prettier": "3.0.2",
-    "scaffdog": "3.0.0",
-    "turbo": "1.10.12"
+    "scaffdog": "4.1.0",
+    "turbo": "2.8.12"
   },
   "engines": {
     "node": ">=18.0.0 <19",
