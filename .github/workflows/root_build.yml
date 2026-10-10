@@ -60,10 +60,10 @@ jobs:
     # if: ${{ needs.filter.outputs.hasChanged == 'true' }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v6.1.0
 
       - name: Setup Node
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v6.5.0
         with:
           # The action will look for `volta.node` first. If `volta.node` isn't defined, then it will look for `engines.node`
           # Refer: https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#node-version-file
@@ -82,7 +82,7 @@ jobs:
         id: pnpm-cache
         run: echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
 
-      - uses: actions/cache@v5
+      - uses: actions/cache@v5.1.0
         name: Setup PNPM cache
         with:
           path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
